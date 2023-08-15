@@ -1,0 +1,181 @@
+.custom-shape-divider-bottom-1692048192 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692048192 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1692048192 .shape-fill {
+  fill: white;
+}
+#one {
+  height: 100vh;
+
+  @media only screen and(max-width :576px) {
+    height: 65vh;
+  }
+}
+.two {
+  padding-top: 15px;
+  @media only screen and (max-width: 576px) {
+    padding-top: 45px;
+  }
+}
+* {
+  overflow-x: hidden;
+}
+.hero_video {
+  margin-left: 34px;
+
+  border-radius: 30px;
+  width: 30vw;
+  @media only screen and (max-width: 576px) {
+    width: 80vw;
+
+    margin-top: 48px;
+  }
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .hero_video {
+    max-width: 30vw;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+  .hero_video {
+    max-width: 80vw;
+    margin-left: 34px;
+  }
+}
+.img3 {
+  width: 100px;
+}
+.wow {
+  margin: 25px;
+  width: 20vw;
+  padding: 10px;
+  border-radius: 20px;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wowm{
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+
+}
+.conimg{
+  width: 20vw;
+  
+  background-color: rgb(255, 255, 255); 
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  
+}
+.star{
+  padding: 2px;
+  color: yellow;
+  font-size: 20px;
+}
+.cim{
+  display: flex;
+  justify-content: space-around;
+}
+.cimg{
+
+  margin: 15px;
+  max-width: 14vw;
+  height: 20vh;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 576px) {
+  .wowm{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .wow{
+    width: 70vw;
+
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 576px) {
+
+}
+
+.nsec {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.9),
+      rgba(22, 22, 22, 0.9)
+    ),
+    url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+  justify-content: space-around;
+  
+}
+
+.kid {
+  margin: 10px;
+}
+
+.iphone {
+
+  width: 30vw;
+  height: 60vh;
+}
+@media only screen and (max-width:576px) {
+  .iphone{
+    width: 80vw;
+  }  
+  .nsec{
+    flex-direction: column;
+
+  }
+  .cim{
+    flex-direction: column;
+    
+  }
+  .conimg{
+    width: 80vw;
+  }
+  .cimg{
+    max-width: 60vw;
+  }
+}
+.customers{
+  background-color: white;
+  color: black;
+  font: bold;
+  text-align: center;
+  padding: 10px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
